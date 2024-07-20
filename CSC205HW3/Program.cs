@@ -67,22 +67,3 @@ namespace CSC205HW3
         }
     }
 }
-
-//1.Process for Checking if a Word is Abecedarian
-//To determine if a word is abecedarian,
-//we need to check if the letters in the word appear
-//in alphabetical order. Here is a step-by-step process:
-
-//Iterative Approach
-//Initialize: Start by assuming the word is abecedarian.
-//Loop through the word: Compare each letter with the letter that follows it.
-//Comparison: If any letter is greater than the next letter, the word is not abecedarian.
-//Return Result: If all letters are in order, return true; otherwise, return false.
-
-//Recursive Approach
-//Base Case: If the word has one or zero letters, it is abecedarian.
-//Recursive Step: Compare the first letter with the second letter.
-//If the first letter is greater, the word is not abecedarian.
-//Continue Recursively: If the first two letters are in order,
-//check the rest of the word using the same process.
-//Return Result: If all letters are in order, return true; otherwise, return false.
